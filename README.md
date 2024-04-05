@@ -4,7 +4,7 @@ Angular 14 Auth Boilerplate - Sign Up with Verification, Login and Forgot Passwo
 
 Working towards a .NET 8 Web API
 
-# Last updated:
+# Last updated
 
 05-04-2024
 
