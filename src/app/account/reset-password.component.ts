@@ -39,9 +39,9 @@ export class ResetPasswordComponent implements OnInit {
 
         const token = this.route.snapshot.queryParams['token'];
 
-        alert("Token: " + token );
+       // alert("Token: " + token );
 
-        alert("Route: " + this.route );
+       // alert("Route: " + this.route );
 
         // remove token from url to prevent http referer leakage
         this.router.navigate([], { relativeTo: this.route, replaceUrl: true });
