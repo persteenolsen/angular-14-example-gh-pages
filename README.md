@@ -16,7 +16,7 @@ Working towards a .NET 8 Web API
 - TypeScript
 - Jasmin for Unit Testing
 - Karma for configuration and HTML Test report coverage
-- Traditional Webhotel as hosting
+- GH Pages for hosting
 - VS Code is my developement tool
 
 # Installing
