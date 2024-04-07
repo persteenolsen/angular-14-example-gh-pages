@@ -6,7 +6,7 @@ Working towards a .NET 8 Web API
 
 # Last updated
 
-05-04-2024
+07-04-2024
 
 # Tech used for this Web Client
 
@@ -18,6 +18,15 @@ Working towards a .NET 8 Web API
 - Karma for configuration and HTML Test report coverage
 - GH Pages for hosting
 - VS Code is my developement tool
+
+# Tech used for Web API, DB, Hosting and DevOps
+
+- .NET 8
+- MS SQL for the DB
+- Azure App Service for Hosting
+- DevOps by Azure Repos and Pipelines
+- Azure Data Studio for DB Managemet
+- VS Code as developement tool
 
 # Installing
 
