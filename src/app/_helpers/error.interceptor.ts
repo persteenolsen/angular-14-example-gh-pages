@@ -25,9 +25,9 @@ export class ErrorInterceptor implements HttpInterceptor {
            // 1 ) Initial Refresh Token 
            // 2 ) Wrong Email or Password - Login
            if ( [400] )
-                console.error(' HTTP Status Code: t - ' + [400] );
+                console.error(' HTTP Status Code: ' + [400] );
            if ( err.statusText == "Bad Request" )
-                console.error(' HTTP Status Text: Bad Request - ' + err.statusText );
+                console.error(' HTTP Status Text: ' + err.statusText );
         
            if ( [400] && err.statusText == "Bad Request" )
                 console.error('Custom Error Message: ' + ' Try to login to get a JWT and a Refresh Token ...' );
