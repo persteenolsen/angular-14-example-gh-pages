@@ -20,20 +20,22 @@ export class ErrorInterceptor implements HttpInterceptor {
             }
                       
            
-           // TEST - 08-04-2024
+           // TEST - 11-04-2024
            // Caching errors when not logged in
            // 1 ) Initial Refresh Token 
            // 2 ) Wrong Email or Password - Login
-           if ( [400] )
-                console.error(' HTTP Status Code: ' + [400] );
-           if ( err.statusText == "Bad Request" )
-                console.error(' HTTP Status Text: ' + err.statusText );
+           //if ( [400] )
+           //     console.error(' HTTP Status Code: ' + [400] );
+           //if ( err.statusText == "Bad Request" )
+           //     console.error(' HTTP Status Text: ' + err.statusText );
         
            if ( [400] && err.statusText == "Bad Request" )
-                console.error('Custom Error Message: ' + ' Try to login to get a JWT and a Refresh Token ...' );
+                console.error( 'There was a 400 Error --- Please try to login ---' );
 
             const error = (err && err.error && err.error.message) || err.statusText;
+
             console.error(err);
+
             return throwError(() => error);
         }))
     }
