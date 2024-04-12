@@ -30,7 +30,7 @@ export class ErrorInterceptor implements HttpInterceptor {
            //     console.error(' HTTP Status Text: ' + err.statusText );
         
            if ( [400] && err.statusText == "Bad Request" )
-                console.error( 'There was a 400 Error --- Please try to login ---' );
+                console.error( '--- Try to login to get the Tokens ---' );
 
             const error = (err && err.error && err.error.message) || err.statusText;
 
