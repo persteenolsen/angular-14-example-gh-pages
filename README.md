@@ -6,7 +6,7 @@ Working towards a .NET 8 Web API
 
 # Last updated
 
-- 25-04-2024
+- 01-05-2024
 
 # Tech used for this Web Client
 
@@ -28,6 +28,7 @@ Working towards a .NET 8 Web API
 - CORS Policy with Credentials set to true
 - Azure Data Studio for DB Managemet
 - VS Code as developement tool
+- MVC architectural / design pattern which separates the App into logical components
 
 # Installing
 
