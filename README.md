@@ -10,8 +10,8 @@ Working towards a .NET 8 Web API
 
 # Functionality of the Web App
 
+- The Web API was made without the ASP.NET Core Identity using custom JWT middleware
 - JWT authentication with refresh tokens
-- The Web API including the Authentication is made without the ASP.NET Core Identity
 - Refresh token rotation
 - Revoked token reuse detection
 - Email sign up and verification
