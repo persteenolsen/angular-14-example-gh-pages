@@ -6,7 +6,18 @@ Working towards a .NET 8 Web API
 
 # Last updated
 
-- 01-05-2024
+- 03-05-2024
+
+# Functionality of the Web App
+
+- JWT authentication with refresh tokens
+- The Web API including the Authentication is made without the ASP.NET Core Identity
+- Refresh token rotation
+- Revoked token reuse detection
+- Email sign up and verification
+- Forgot password and reset password functionality
+- Role based authorization with two roles "User" and "Admin"
+- CRUD Account management routes with role based access control
 
 # Tech used for this Web Client
 
@@ -26,11 +37,15 @@ Working towards a .NET 8 Web API
 - Azure App Service for Hosting
 - DevOps by Azure Repos and Pipelines
 - CORS Policy with Credentials set to true
-- Azure Data Studio for DB Managemet
+- Azure Data Studio for DB Management
 - VS Code as developement tool
-- MVC architectural / design pattern which separates the App into logical components
+- Swagger API documentation with routes
 
-# Installing
+# Architectural / Design pattern
+
+- MVC architectural / design pattern which separates the App into logical components 
+
+# Installing the Angular Client
 
 - Make sure you have a new version of Node installed
 - Download the code by zip or fork
