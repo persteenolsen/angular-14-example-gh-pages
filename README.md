@@ -8,9 +8,10 @@ Working towards a .NET 8 Web API
 
 - 03-05-2024
 
+The Web API was made without the ASP.NET Core Identity using custom JWT middleware
+
 # Functionality of the Web App
 
-- The Web API was made without the ASP.NET Core Identity using custom JWT middleware
 - JWT authentication with refresh tokens
 - Refresh token rotation
 - Revoked token reuse detection
