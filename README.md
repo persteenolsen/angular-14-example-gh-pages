@@ -22,7 +22,7 @@ The Web API was made without the ASP.NET Core Identity using custom JWT middlewa
 
 # Tech used for this Web Client
 
-- Node.js version 18.19.1
+- Node.js version 20
 - Volta for Node Version management
 - Angular 14 is the JS framework for this frontend
 - TypeScript
