@@ -6,7 +6,7 @@ Working towards a .NET 8 Web API
 
 # Last updated
 
-- 18-04-2025
+- 08-05-2025
 
 The Web API was made without the ASP.NET Core Identity using custom JWT middleware
 
