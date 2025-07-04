@@ -5,6 +5,8 @@
 export const environment = {
     production: false,
     apiUrl: 'https://pso-aspnet-signup-email-api.azurewebsites.net'
+
+   // apiUrl:'http://localhost:5000'
 };
 
 /*
